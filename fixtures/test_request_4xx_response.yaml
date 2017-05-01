@@ -1,0 +1,23 @@
+interactions:
+- request:
+    body: 'null'
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic Z3Vlc3Q6Z3Vlc3Q=]
+      Connection: [keep-alive]
+      Content-Length: ['4']
+      Content-type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+    method: POST
+    uri: http://localhost:15672/api/overview
+  response:
+    body: {string: '{"error":"Method Not Allowed","reason":"\"Method Not Allowed\"\n"}'}
+    headers:
+      Allow: ['HEAD, GET, OPTIONS']
+      Content-Length: ['66']
+      Date: ['Mon, 14 Nov 2016 13:31:56 GMT']
+      Server: [MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)]
+      vary: [origin]
+    status: {code: 405, message: Method Not Allowed}
+version: 1

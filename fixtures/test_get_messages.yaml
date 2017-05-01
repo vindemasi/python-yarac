@@ -1,0 +1,24 @@
+interactions:
+- request:
+    body: '{"requeue": true, "truncate": 1000, "encoding": "auto", "count": 1}'
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic Z3Vlc3Q6Z3Vlc3Q=]
+      Connection: [keep-alive]
+      Content-Length: ['67']
+      Content-type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+    method: POST
+    uri: http://localhost:15672/api/queues/%2F/test-queue/get
+  response:
+    body: {string: '[{"payload_bytes":4,"redelivered":false,"exchange":"","routing_key":"test-queue","message_count":0,"properties":{"delivery_mode":1,"headers":{}},"payload":"test","payload_encoding":"string"}]'}
+    headers:
+      Cache-Control: [no-cache]
+      Content-Type: [application/json]
+      Date: ['Mon, 14 Nov 2016 14:08:54 GMT']
+      Server: [MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)]
+      content-length: ['191']
+      vary: ['Accept-Encoding, origin']
+    status: {code: 200, message: OK}
+version: 1

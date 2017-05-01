@@ -1,0 +1,25 @@
+interactions:
+- request:
+    body: '{"properties": {}, "payload": "Hello", "routing_key": "test.route", "payload_encoding":
+      "string"}'
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic Z3Vlc3Q6Z3Vlc3Q=]
+      Connection: [keep-alive]
+      Content-Length: ['97']
+      Content-type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+    method: POST
+    uri: http://localhost:15672/api/exchanges/%2F/test-exchange/publish
+  response:
+    body: {string: '{"routed":true}'}
+    headers:
+      Cache-Control: [no-cache]
+      Content-Type: [application/json]
+      Date: ['Sun, 13 Nov 2016 00:47:50 GMT']
+      Server: [MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)]
+      content-length: ['15']
+      vary: ['Accept-Encoding, origin']
+    status: {code: 200, message: OK}
+version: 1

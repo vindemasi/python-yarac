@@ -1,0 +1,25 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic Z3Vlc3Q6Z3Vlc3Q=]
+      Connection: [keep-alive]
+      Content-type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+    method: GET
+    uri: http://localhost:15672/api/queues
+  response:
+    body: {string: '[{"memory":13888,"message_stats":{"deliver":0,"deliver_details":{"rate":0.0},"deliver_no_ack":0,"deliver_no_ack_details":{"rate":0.0},"get":0,"get_details":{"rate":0.0},"get_no_ack":1,"get_no_ack_details":{"rate":0.0},"publish":1,"publish_details":{"rate":0.0},"publish_in":0,"publish_in_details":{"rate":0.0},"publish_out":0,"publish_out_details":{"rate":0.0},"ack":0,"ack_details":{"rate":0.0},"deliver_get":1,"deliver_get_details":{"rate":0.0},"confirm":0,"confirm_details":{"rate":0.0},"return_unroutable":0,"return_unroutable_details":{"rate":0.0},"redeliver":0,"redeliver_details":{"rate":0.0}},"reductions":2359,"reductions_details":{"rate":0.0},"messages":0,"messages_details":{"rate":0.0},"messages_ready":0,"messages_ready_details":{"rate":0.0},"messages_unacknowledged":0,"messages_unacknowledged_details":{"rate":0.0},"idle_since":"2016-11-09
+        7:21:15","consumer_utilisation":null,"policy":null,"exclusive_consumer_tag":null,"consumers":0,"recoverable_slaves":null,"state":"running","reductions":2359,"garbage_collection":{"max_heap_size":0,"min_bin_vheap_size":46422,"min_heap_size":233,"fullsweep_after":65535,"minor_gcs":7},"messages_ram":0,"messages_ready_ram":0,"messages_unacknowledged_ram":0,"messages_persistent":0,"message_bytes":0,"message_bytes_ready":0,"message_bytes_unacknowledged":0,"message_bytes_ram":0,"message_bytes_persistent":0,"head_message_timestamp":null,"disk_reads":0,"disk_writes":0,"backing_queue_status":{"mode":"default","q1":0,"q2":0,"delta":["delta","undefined",0,"undefined"],"q3":0,"q4":0,"len":0,"target_ram_count":"infinity","next_seq_id":1,"avg_ingress_rate":0.0,"avg_egress_rate":0.0,"avg_ack_ingress_rate":0.0,"avg_ack_egress_rate":0.0},"node":"rabbit@katorz","arguments":{},"exclusive":false,"auto_delete":false,"durable":false,"vhost":"/","name":"aliveness-test"},{"memory":13944,"reductions":2093,"reductions_details":{"rate":0.0},"messages":0,"messages_details":{"rate":0.0},"messages_ready":0,"messages_ready_details":{"rate":0.0},"messages_unacknowledged":0,"messages_unacknowledged_details":{"rate":0.0},"idle_since":"2016-11-09
+        19:33:58","consumer_utilisation":null,"policy":null,"exclusive_consumer_tag":null,"consumers":0,"recoverable_slaves":null,"state":"running","reductions":2093,"garbage_collection":{"max_heap_size":0,"min_bin_vheap_size":46422,"min_heap_size":233,"fullsweep_after":65535,"minor_gcs":1},"messages_ram":0,"messages_ready_ram":0,"messages_unacknowledged_ram":0,"messages_persistent":0,"message_bytes":0,"message_bytes_ready":0,"message_bytes_unacknowledged":0,"message_bytes_ram":0,"message_bytes_persistent":0,"head_message_timestamp":null,"disk_reads":0,"disk_writes":0,"backing_queue_status":{"mode":"default","q1":0,"q2":0,"delta":["delta","undefined",0,"undefined"],"q3":0,"q4":0,"len":0,"target_ram_count":"infinity","next_seq_id":0,"avg_ingress_rate":0.0,"avg_egress_rate":0.0,"avg_ack_ingress_rate":0.0,"avg_ack_egress_rate":0.0},"node":"rabbit@katorz","arguments":{},"exclusive":false,"auto_delete":false,"durable":true,"vhost":"/","name":"test-queue"}]'}
+    headers:
+      Cache-Control: [no-cache]
+      Content-Type: [application/json]
+      Date: ['Wed, 09 Nov 2016 19:35:39 GMT']
+      Server: [MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)]
+      content-length: ['3043']
+      vary: ['Accept-Encoding, origin']
+    status: {code: 200, message: OK}
+version: 1

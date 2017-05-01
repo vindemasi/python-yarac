@@ -1,0 +1,29 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic Z3Vlc3Q6Z3Vlc3Q=]
+      Connection: [keep-alive]
+      Content-type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+    method: GET
+    uri: http://localhost:15672/api/overview
+  response:
+    body: {string: '{"management_version":"3.6.5","rates_mode":"basic","exchange_types":[{"name":"headers","description":"AMQP
+        headers exchange, as per the AMQP specification","enabled":true},{"name":"topic","description":"AMQP
+        topic exchange, as per the AMQP specification","enabled":true},{"name":"direct","description":"AMQP
+        direct exchange, as per the AMQP specification","enabled":true},{"name":"fanout","description":"AMQP
+        fanout exchange, as per the AMQP specification","enabled":true}],"rabbitmq_version":"3.6.5","cluster_name":"rabbit@localhost","erlang_version":"19.1.5","erlang_full_version":"Erlang/OTP
+        19 [erts-8.1] [source] [64-bit] [smp:2:2] [async-threads:64] [kernel-poll:true]","message_stats":{},"queue_totals":{},"object_totals":{"consumers":0,"queues":0,"exchanges":8,"connections":0,"channels":0},"statistics_db_event_queue":0,"node":"rabbit@katorz","statistics_db_node":"rabbit@katorz","listeners":[{"node":"rabbit@katorz","protocol":"amqp","ip_address":"::","port":5672},{"node":"rabbit@katorz","protocol":"clustering","ip_address":"::","port":25672},{"node":"rabbit@katorz","protocol":"stomp","ip_address":"::","port":61613}],"contexts":[{"node":"rabbit@katorz","description":"RabbitMQ
+        Management","path":"/","port":"15672"}]}'}
+    headers:
+      Cache-Control: [no-cache]
+      Content-Type: [application/json]
+      Date: ['Wed, 09 Nov 2016 00:53:42 GMT']
+      Server: [MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)]
+      content-length: ['1231']
+      vary: ['Accept-Encoding, origin']
+    status: {code: 200, message: OK}
+version: 1

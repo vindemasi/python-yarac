@@ -1,0 +1,23 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic Z3Vlc3Q6Z3Vlc3Q=]
+      Connection: [keep-alive]
+      Content-type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+    method: GET
+    uri: http://localhost:15672/api/parameters/shovel
+  response:
+    body: {string: '[{"value":{"src-uri":"amqp://localhost:15672","delete-after":"never","src-exchange":"test-exchange","src-exchange-key":"#","dest-uri":"amqp://localhost:15672","dest-queue":"test-queue","add-forward-headers":false,"ack-mode":"on-confirm"},"vhost":"/","component":"shovel","name":"my-shovel-parm"}]'}
+    headers:
+      Cache-Control: [no-cache]
+      Content-Type: [application/json]
+      Date: ['Sun, 13 Nov 2016 01:52:44 GMT']
+      Server: [MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)]
+      content-length: ['296']
+      vary: ['Accept-Encoding, origin']
+    status: {code: 200, message: OK}
+version: 1

@@ -1,0 +1,27 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic Z3Vlc3Q6Z3Vlc3Q=]
+      Connection: [keep-alive]
+      Content-type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+    method: GET
+    uri: http://localhost:15672/api/vhosts/%2F/connections
+  response:
+    body: {string: '[{"connected_at":1478996676773,"client_properties":{"capabilities":{"publisher_confirms":true,"authentication_failure_close":true,"consumer_cancel_notify":true,"basic.nack":true,"connection.blocked":true},"platform":"Python
+        3.5.2+","product":"Pika Python Client Library","version":"0.10.0","information":"See
+        http://pika.rtfd.org"},"channel_max":0,"frame_max":131072,"timeout":60,"vhost":"/","user":"guest","protocol":"AMQP
+        0-9-1","ssl_hash":null,"ssl_cipher":null,"ssl_key_exchange":null,"ssl_protocol":null,"auth_mechanism":"PLAIN","peer_cert_validity":null,"peer_cert_issuer":null,"peer_cert_subject":null,"ssl":false,"peer_host":"::1","host":"::1","peer_port":49894,"port":5672,"name":"[::1]:49894
+        -> [::1]:5672","node":"rabbit@katorz","type":"network","garbage_collection":{"max_heap_size":0,"min_bin_vheap_size":46422,"min_heap_size":233,"fullsweep_after":65535,"minor_gcs":7},"reductions":19754,"channels":0,"state":"running","send_pend":0,"send_cnt":7,"recv_cnt":7,"recv_oct_details":{"rate":0.0},"recv_oct":432,"send_oct_details":{"rate":0.0},"send_oct":615,"reductions_details":{"rate":92.0},"reductions":19754}]'}
+    headers:
+      Cache-Control: [no-cache]
+      Content-Type: [application/json]
+      Date: ['Sun, 13 Nov 2016 00:27:27 GMT']
+      Server: [MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)]
+      content-length: ['1122']
+      vary: ['Accept-Encoding, origin']
+    status: {code: 200, message: OK}
+version: 1

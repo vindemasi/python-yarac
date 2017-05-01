@@ -1,0 +1,25 @@
+interactions:
+- request:
+    body: '{"arguments": {}, "routing_key": "foo"}'
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic Z3Vlc3Q6Z3Vlc3Q=]
+      Connection: [keep-alive]
+      Content-Length: ['39']
+      Content-type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+    method: POST
+    uri: http://localhost:15672/api/bindings/%2F/e/test-exchange/q/test-queue
+  response:
+    body: {string: ''}
+    headers:
+      Content-Encoding: [gzip]
+      Content-Length: ['0']
+      Content-Type: [application/json]
+      Date: ['Sun, 13 Nov 2016 01:30:38 GMT']
+      Location: [test-queue/foo]
+      Server: [MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)]
+      vary: ['Accept-Encoding, origin']
+    status: {code: 201, message: Created}
+version: 1

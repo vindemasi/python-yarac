@@ -1,0 +1,23 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic Z3Vlc3Q6Z3Vlc3Q=]
+      Connection: [keep-alive]
+      Content-type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+    method: GET
+    uri: http://localhost:15672/api/users
+  response:
+    body: {string: '[{"name":"guest","password_hash":"xHIiWGNYF4CMxwGsuKnzQJjUQQn4Sw7xAob1IXIxcmAn8dqo","hashing_algorithm":"rabbit_password_hashing_sha256","tags":"administrator"},{"name":"test-user","password_hash":"NXIwiPGb6FSWVh7J7zuszrHc9mOX8sbViT55j56H8iJ4w1/j","hashing_algorithm":"rabbit_password_hashing_sha256","tags":""}]'}
+    headers:
+      Cache-Control: [no-cache]
+      Content-Type: [application/json]
+      Date: ['Wed, 09 Nov 2016 07:55:23 GMT']
+      Server: [MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)]
+      content-length: ['312']
+      vary: ['Accept-Encoding, origin']
+    status: {code: 200, message: OK}
+version: 1

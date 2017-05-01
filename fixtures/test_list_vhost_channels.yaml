@@ -1,0 +1,26 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic Z3Vlc3Q6Z3Vlc3Q=]
+      Connection: [keep-alive]
+      Content-type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+    method: GET
+    uri: http://localhost:15672/api/vhosts/%2F/channels
+  response:
+    body: {string: '[{"vhost":"/","user":"guest","number":1,"name":"[::1]:49944 ->
+        [::1]:5672 (1)","node":"rabbit@katorz","garbage_collection":{"max_heap_size":0,"min_bin_vheap_size":46422,"min_heap_size":233,"fullsweep_after":65535,"minor_gcs":1},"reductions":1339,"state":"running","global_prefetch_count":0,"prefetch_count":0,"acks_uncommitted":0,"messages_uncommitted":0,"messages_unconfirmed":0,"messages_unacknowledged":0,"consumer_count":1,"confirm":false,"transactional":false,"idle_since":"2016-11-13
+        0:34:57","reductions_details":{"rate":0.0},"reductions":1339,"connection_details":{"name":"[::1]:49944
+        -> [::1]:5672","peer_port":49944,"peer_host":"::1"}}]'}
+    headers:
+      Cache-Control: [no-cache]
+      Content-Type: [application/json]
+      Date: ['Sun, 13 Nov 2016 00:39:12 GMT']
+      Server: [MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)]
+      content-length: ['646']
+      vary: ['Accept-Encoding, origin']
+    status: {code: 200, message: OK}
+version: 1

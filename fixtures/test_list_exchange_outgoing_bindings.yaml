@@ -1,0 +1,23 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic Z3Vlc3Q6Z3Vlc3Q=]
+      Connection: [keep-alive]
+      Content-type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+    method: GET
+    uri: http://localhost:15672/api/exchanges/%2F/test-exchange/bindings/source
+  response:
+    body: {string: '[{"source":"test-exchange","vhost":"/","destination":"test-queue","destination_type":"queue","routing_key":"test.route","arguments":{},"properties_key":"test.route"}]'}
+    headers:
+      Cache-Control: [no-cache]
+      Content-Type: [application/json]
+      Date: ['Sun, 13 Nov 2016 00:58:32 GMT']
+      Server: [MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)]
+      content-length: ['166']
+      vary: ['Accept-Encoding, origin']
+    status: {code: 200, message: OK}
+version: 1
