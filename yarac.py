@@ -29,7 +29,7 @@ yarac - provide a client to interact with the RabbiMQ management API.
 """
 
 __author__ = "Vincenzo Demasi"
-__copyright__ = "Copyright 2017, Vincenzo Demasi"
+__copyright__ = "Copyright 2016-2017, Vincenzo Demasi"
 __license__ = "MIT"
 __version__ = "0.1.0"
 
